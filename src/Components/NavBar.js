@@ -5,10 +5,10 @@ import {NavLink} from 'react-router-dom';
 function NavBar() {
     return (
         <div className='NavBar'>
+            <nav className='nav'>
             <div className='profile'>
                 <img src={avatar} alt=""/>
             </div>
-            <nav className='nav'>
                 <ul className='nav-items'>
                     <li className='nav-item'>
                         <NavLink to="/" exact activeClassName="active">
@@ -36,7 +36,14 @@ function NavBar() {
                         </NavLink>
                     </li>
                 </ul>
+                
+                <footer className='footer'>
+                    <p>
+                        @2021 lorem ipsum dolor sit 
+                    </p>
+                </footer>
             </nav>
+            
         </div>
     )
 }
