@@ -13,7 +13,7 @@ function HomePage() {
             <header className='hero'>
                 <h1 className='hero-text'>
                     Hi, I am 
-                    <span>Lorem ipsum</span>
+                    <span> Lorem ipsum</span>
                 </h1>
                 <p className="h-sub-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
