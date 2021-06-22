@@ -3,7 +3,8 @@
     font-size: 2rem;
     color: white;
     position: relative;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
     &::before{
         content: "";
         bottom: 0;
@@ -27,7 +28,7 @@
     }
     span{
         position: absolute;
-        top: 40%;
+        top: 15%;
         left: 0;
         font-size: 5rem;
         opacity: 0.07;
