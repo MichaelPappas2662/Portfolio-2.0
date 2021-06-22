@@ -58,4 +58,21 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+body{
+    background-color: var(--background-dark-color);
+    color: var(--font-light-color);
+    transition: all .4s ease-in-out;
+}
 `;
