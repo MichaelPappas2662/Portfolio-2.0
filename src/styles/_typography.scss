@@ -26,12 +26,19 @@
     padding: 1.5rem 0;
     .icon-holder{
         margin-right: 1rem;
-        border: 1px solid red;
         .icon{
-            font-size: 2.3rem;  
-            padding: 1rem;
-
-
+            font-size: 2.8rem;  
+            color: #a4acc4;
+            transition: all .4s ease-in-out;
+        }
+        .yt:hover{
+            color: red;
+        }
+        .gh:hover{
+            color: rgb(212, 45, 212, 0.788);
+        }
+        .fb:hover{
+            color: blue;
         }
     }
 }
