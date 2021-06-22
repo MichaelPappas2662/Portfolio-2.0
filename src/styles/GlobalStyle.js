@@ -76,3 +76,6 @@ body{
     transition: all .4s ease-in-out;
 }
 `;
+
+
+export default GlobalStyle;
