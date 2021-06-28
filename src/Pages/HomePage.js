@@ -4,6 +4,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';
 import Particle from '../Components/Particle';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function HomePage() {
     return (
@@ -12,20 +13,21 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, I'm <span>Lorem Ipsum</span></h1>
+                <h1>Hi, I'm <span>Michael Pappas</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                    A Full Stack Developer from Sydney.I started my career on 2021.Currently open for new projects, lets get in touch.
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100010527543286" target="_blank" rel="noopener noreferrer" className="icon i-facebook">
                         <FacebookIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://www.linkedin.com/in/michael-pappas-460651123/" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
+                        <LinkedInIcon />
+                    </a>
+                    <a href="https://github.com/MichaelPappas2662" target="_blank" rel="noopener noreferrer" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
+                    <a href="https://www.youtube.com/channel/UCjhnPbyUL0BfZoHEApmrwnA" target="_blank" rel="noopener noreferrer" className="icon i-youtube">
                         <YoutubeIcon />
                     </a>
                 </div>
