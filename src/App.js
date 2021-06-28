@@ -72,9 +72,6 @@ function App() {
           </div>
 
           <Switching>
-            <Route path="/" exact>
-              <HomePage />
-            </Route>
             <Route path="/about" exact>
               <AboutPage />
             </Route>
@@ -89,6 +86,9 @@ function App() {
             </Route>
             <Route path="/contact" exact>
               <ContactPage />
+            </Route>
+            <Route path="*" exact>
+              <HomePage />
             </Route>
           </Switching>
 
