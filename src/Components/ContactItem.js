@@ -19,11 +19,14 @@ function ContactItem({title, icon, cont1, cont2}) {
 }
 
 const ContactItemStyled = styled.div`
-    padding: 1.5rem 2rem;
+    padding:1.5rem 2rem;
     background-color: var(--background-dark-grey);
     display: flex;
     align-items: center;
-    .left-content {
+    &:not(:last-child){
+        margin-bottom: 2.5rem;
+    }
+    .left-content{
         padding: 1.5rem;
         border: 1px solid var(--border-color);
         font-size: 2rem;
@@ -46,7 +49,6 @@ const ContactItemStyled = styled.div`
             padding: .1rem 0;
         }
     }
-
 `;
 
 export default ContactItem
