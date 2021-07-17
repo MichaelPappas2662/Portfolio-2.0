@@ -12,9 +12,12 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Michael Pappas</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
+                Front-End Web Developer leveraging my background in hospitality to build more intuitive user experiences on the web. 
+                Recently earned a certificate in Full Stack Development from the University of Sydney and developed skills in JavaScript, CSS, React.js, and responsive web design.
+                Known as an innovative problem-solver passionate about developing apps, with a focus on mobile-first design and development.
+                Aim for each project is to best engage the audience for an impactful user-experience.  
+                Excited to leverage my skills in the future as part of a fast-paced, quality-driven team in order to build better experiences on the web.
+
                     
                 </p>
                 <div className="about-info">
