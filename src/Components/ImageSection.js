@@ -38,7 +38,7 @@ function ImageSection() {
                         <p>: Freelance</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'}/>
+                <PrimaryButton title={'Download Cv'} useRef='https://docs.google.com/document/d/1sKG-ViocLRYWrduOff9Q5pMT3-B8Q4Jr9133gaw92NQ/edit?usp=sharing'/>
             </div>
         </ImageSectionStyled>
     )
